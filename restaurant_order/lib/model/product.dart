@@ -3,6 +3,7 @@ class Product {
     required this.id,
     required this.name,
     required this.price,
+    required this.imageInfo,
     this.quantity = 0,
   });
 
@@ -10,4 +11,5 @@ class Product {
   final String name;
   final double price;
   final int quantity;
+  final String imageInfo;
 }
